@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.wrapper {
+    background: linear-gradient(180deg, #333333 0%, #090707 25.98%);
+    height: 2000px;
+}
+
+header {
+    max-width: 1300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 46px;
+}
+
+.nav-header button{
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    background-color: transparent;
+    border: solid 1px #fff;
+    padding: 16px 50px;
+    color: #fff;
+    border-radius: 5px;
+}
